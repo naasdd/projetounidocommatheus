@@ -24,12 +24,16 @@ header{
 }
 
 .tier{
-
+    position: absolute;
+    width: 70px;
+    height: 70px;
+    left: 200px;
+    top: 13px;
 }
 .sobre {
     font: normal 30px Ubuntu;
     text-align: center;
-    margin-top: 10px;
+    margin-top: 30px;
     margin-left: 900px;
     color: white;
     width: 135px;
