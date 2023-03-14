@@ -11,7 +11,7 @@
     --cor3: #4da7f0;
 
     --font-padrao: 'Ubuntu', 'Arial', 'sans-serif';
-    --fonte-footer: 'Robot-Slab', 'Arial', 'sans-serif';
+    --fonte-footer: 'Roboto Slab', serif;
 }
 
 * { /* Configurações globais */
@@ -108,4 +108,12 @@ header{
     width: auto;
     height: 500px;
     margin-left: 1000px;
+}
+
+.subtitulo-footer1 {
+    font-family: var(--fonte-footer);
+}
+
+.subtitulo-footer2 {
+    font-family: var(--fonte-footer);
 }
