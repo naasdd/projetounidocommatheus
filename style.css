@@ -13,12 +13,13 @@
 
 body{
     background: rgb(78,84,200);
-    background: linear-gradient(45deg, rgba(78,84,200,1) 1%, rgba(143,148,251,1) 100%);
+    background-image: linear-gradient(300deg, #23306F, #495ca1, #4da7f0);
+    background-attachment: fixed;
 }
 
 header{
     display: inline-block;
-    background-color: rgba(143,148,251,1);
+    background-image: linear-gradient(300deg, #23306F, #495ca1, #4da7f0);
     height: 100px;
     width: 100%;
 }
@@ -31,7 +32,7 @@ header{
     top: 13px;
 }
 .sobre {
-    font: normal 30px Ubuntu;
+    font: normal 27px Ubuntu;
     text-align: center;
     margin-top: 30px;
     margin-left: 900px;
@@ -43,9 +44,9 @@ header{
     text-shadow: 1px 1px 10px white;
 }
 .blog {
-    font: normal 30px Ubuntu;
+    font: normal 27px Ubuntu;
     text-align: center;
-    margin-top: -35px;
+    margin-top: -30px;
     margin-left: 1070px;
     color: white;
     width: 135px;
@@ -54,9 +55,9 @@ header{
     text-shadow: 1px 1px 10px white;
 }
 .portfolio {
-    font: normal 30px Ubuntu;
+    font: normal 27px Ubuntu;
     text-align: center;
-    margin-top: -35px;
+    margin-top: -30px;
     margin-left: 1230px;
     color: white;
     width: 135px;
@@ -65,15 +66,15 @@ header{
     text-shadow: 1px 1px 10px white;
 }
 .trabalhe_header{
-    font: bold 27px Ubuntu;
+    font: bold 24px Ubuntu;
     position: relative;
-    top: -50px;
+    top: -45px;
     margin-left: 1420px;
-    height: 70px;
-    width: 300px;
+    height: 60px;
+    width: 270px;
     border-style: none;
     border-radius: 50px;
-    background-color: rgb(250,20,100);
+    background-color: #FF6496;
     color: white;
 }
 .trabalhe_header:hover{
