@@ -1,5 +1,78 @@
-body{
-    background-color: rgb(121, 171, 216);
-    legak
+@charset "UTF-8";
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu&display=swap');
+
+
+* { /* Configurações globais */
+    height: 100;
+    font-family: 'Ubuntu', sans-serif;
+    padding: 0%;
+    margin: 0%;
+    text-decoration: none;
+    transition: all 0.5s;
 }
-asdadsadfgd
+
+body{
+    background: rgb(78,84,200);
+    background: linear-gradient(45deg, rgba(78,84,200,1) 1%, rgba(143,148,251,1) 100%);
+}
+
+header{
+    display: inline-block;
+    background-color: rgba(143,148,251,1);
+    height: 100px;
+    width: 100%;
+}
+
+.tier{
+
+}
+.sobre {
+    font: normal 30px Ubuntu;
+    text-align: center;
+    margin-top: 10px;
+    margin-left: 900px;
+    color: white;
+    width: 135px;
+
+}
+.sobre:hover{
+    text-shadow: 1px 1px 10px white;
+}
+.blog {
+    font: normal 30px Ubuntu;
+    text-align: center;
+    margin-top: -35px;
+    margin-left: 1070px;
+    color: white;
+    width: 135px;
+}
+.blog:hover{
+    text-shadow: 1px 1px 10px white;
+}
+.portfolio {
+    font: normal 30px Ubuntu;
+    text-align: center;
+    margin-top: -35px;
+    margin-left: 1230px;
+    color: white;
+    width: 135px;
+}
+.portfolio:hover{
+    text-shadow: 1px 1px 10px white;
+}
+.trabalhe_header{
+    font: bold 27px Ubuntu;
+    position: relative;
+    top: -50px;
+    margin-left: 1420px;
+    height: 70px;
+    width: 300px;
+    border-style: none;
+    border-radius: 50px;
+    background-color: rgb(250,20,100);
+    color: white;
+}
+.trabalhe_header:hover{
+    cursor: pointer;
+    box-shadow: 1px 1px 20px red;
+}
